@@ -1,0 +1,12 @@
+uy_page.description:
+  title: Uy Page Example
+  route_name: uy_page_description
+  expanded: TRUE
+
+uy_page.simple:
+  title: Simple - no arguments
+  route_name: uy_page_simple
+  parent: uy_page.description
+
+# We can't define a menu link for the page_example_arguments route, because it
+# requires path arguments.

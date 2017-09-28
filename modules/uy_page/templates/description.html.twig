@@ -1,0 +1,16 @@
+{#
+/**
+ * @file
+ * Contains the text of the page_example explanation page
+ */
+#}
+
+{% set uy_page_simple = path('uy_page_simple') %}
+{% set uy_page_arguments = path('uy_page_arguments',{'first':10, 'second':07}) %}
+
+{% trans %}
+<p>The uy page example module provides two pages, "simple" and "arguments".</p>
+<p>The <a href={{ uy_page_simple }}> simple</a> just returns a renderable array for display.</p>
+<p>The <a href={{ uy_page_arguments }}>arguments page</a> takes two arguments and displays them, as in {{ uy_page_arguments }}</p>
+
+{% endtrans %}

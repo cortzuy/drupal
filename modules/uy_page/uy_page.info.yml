@@ -1,0 +1,13 @@
+name: Uy Page
+type: module
+package: custom
+description: 'Demonstrate how to display a page at a given URL.'
+# core: 8.x
+dependencies:
+  - drupal:node
+
+# Information added by drupal.org packaging script
+version: '8.x'
+core: '8.x'
+project: 'uy_page'
+datestamp: 1506388208

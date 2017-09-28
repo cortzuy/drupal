@@ -1,0 +1,7 @@
+uy_blocks.description:
+  path: '/uy/block-example'
+  defaults:
+    _controller: '\Drupal\uy_blocks\Controller\UyBlocksController::description'
+    _title: 'Uy Blocks Example'
+  requirements:
+    _permission: 'access content'
